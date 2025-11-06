@@ -108,6 +108,13 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+# Add "Created by Agro Mavericks" below the main title
+st.markdown("""
+    <div style='text-align: center; margin-top: 0.5em; margin-bottom: 1.5em;'>
+        <p style='color: #2e7d32; font-size:1.1em; font-weight:600;'>Created by Agro Mavericks</p>
+    </div>
+""", unsafe_allow_html=True)
+
 api_url = "http://leaf-diseases-detect.vercel.app"
 
 def add_mock_pest_data(result):
